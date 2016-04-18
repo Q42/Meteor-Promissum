@@ -15,5 +15,3 @@ FOUNDATION_EXPORT double Meteor_PromissumVersionNumber;
 FOUNDATION_EXPORT const unsigned char Meteor_PromissumVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <Meteor_Promissum/PublicHeader.h>
-
-#import <Meteor/Meteor.h>
