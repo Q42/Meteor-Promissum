@@ -1,6 +1,6 @@
 //
 //  Meteor+Promises.swift
-//  uButler
+//  Meteor+Promises
 //
 //  Created by Tomas Harkema on 21-02-16.
 //  Copyright © 2016 Q42. All rights reserved.
