@@ -11,6 +11,6 @@ Pod::Spec.new do |s|
   s.source                = { :git => "https://github.com/Q42/Meteor-Promissum.git", :tag => "0.0.1" }
   s.source_files          = "Meteor+Promissum"
 
-  # s.dependency "Meteor"
+  s.dependency "Meteor"
   s.dependency "Promissum"
 end
