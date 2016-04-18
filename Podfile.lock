@@ -1,0 +1,32 @@
+PODS:
+  - InflectorKit (0.0.1)
+  - Meteor (0.2.1):
+    - InflectorKit
+    - PocketSocket
+    - SimpleKeychain
+  - PocketSocket (1.0.0):
+    - PocketSocket/Client (= 1.0.0)
+    - PocketSocket/Core (= 1.0.0)
+    - PocketSocket/Server (= 1.0.0)
+  - PocketSocket/Client (1.0.0):
+    - PocketSocket/Core
+  - PocketSocket/Core (1.0.0)
+  - PocketSocket/Server (1.0.0):
+    - PocketSocket/Client
+  - Promissum (0.5.0):
+    - Promissum/Core (= 0.5.0)
+  - Promissum/Core (0.5.0)
+  - SimpleKeychain (0.7.0)
+
+DEPENDENCIES:
+  - Meteor
+  - Promissum
+
+SPEC CHECKSUMS:
+  InflectorKit: 64497199e6764f4d8337cab7f700a77b13d76a73
+  Meteor: c7158a73a5b4af79f75bff0e8c29fcd6a525e3f3
+  PocketSocket: 079aa33d995512d301ece1a98d13a8febd36c666
+  Promissum: 178ef117f446ed62e92e58cfbf8dd01bf543dad1
+  SimpleKeychain: b50cef3b87939d480ea1143425c00f5b4b70fe21
+
+COCOAPODS: 0.39.0
