@@ -9,49 +9,6 @@
 /* Begin PBXBuildFile section */
 		30FFB3001AF606120D557245 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45C31D4F8CA04E25A98251C6 /* Pods.framework */; };
 		855092B2D7727244B310F708 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45C31D4F8CA04E25A98251C6 /* Pods.framework */; };
-		C36BAB181CC4E1F800B9A9A7 /* METAccount.h in Headers */ = {isa = PBXBuildFile; fileRef = C36BAAED1CC4E1F800B9A9A7 /* METAccount.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C36BAB191CC4E1F800B9A9A7 /* METAleaRandomValueGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = C36BAAEE1CC4E1F800B9A9A7 /* METAleaRandomValueGenerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C36BAB1A1CC4E1F800B9A9A7 /* METBufferedDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = C36BAAEF1CC4E1F800B9A9A7 /* METBufferedDocument.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C36BAB1B1CC4E1F800B9A9A7 /* METCollection_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = C36BAAF01CC4E1F800B9A9A7 /* METCollection_Internal.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C36BAB1C1CC4E1F800B9A9A7 /* METCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = C36BAAF11CC4E1F800B9A9A7 /* METCollection.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C36BAB1D1CC4E1F800B9A9A7 /* METCoreDataDDPClient.h in Headers */ = {isa = PBXBuildFile; fileRef = C36BAAF21CC4E1F800B9A9A7 /* METCoreDataDDPClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C36BAB1E1CC4E1F800B9A9A7 /* METDatabase_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = C36BAAF31CC4E1F800B9A9A7 /* METDatabase_Internal.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C36BAB1F1CC4E1F800B9A9A7 /* METDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = C36BAAF41CC4E1F800B9A9A7 /* METDatabase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C36BAB201CC4E1F800B9A9A7 /* METDatabaseChanges_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = C36BAAF51CC4E1F800B9A9A7 /* METDatabaseChanges_Internal.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C36BAB211CC4E1F800B9A9A7 /* METDatabaseChanges.h in Headers */ = {isa = PBXBuildFile; fileRef = C36BAAF61CC4E1F800B9A9A7 /* METDatabaseChanges.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C36BAB221CC4E1F900B9A9A7 /* METDataUpdate.h in Headers */ = {isa = PBXBuildFile; fileRef = C36BAAF71CC4E1F800B9A9A7 /* METDataUpdate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C36BAB231CC4E1F900B9A9A7 /* METDDPClient_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = C36BAAF81CC4E1F800B9A9A7 /* METDDPClient_Internal.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C36BAB241CC4E1F900B9A9A7 /* METDDPClient.h in Headers */ = {isa = PBXBuildFile; fileRef = C36BAAF91CC4E1F800B9A9A7 /* METDDPClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C36BAB251CC4E1F900B9A9A7 /* METDDPClient+AccountsPassword.h in Headers */ = {isa = PBXBuildFile; fileRef = C36BAAFA1CC4E1F800B9A9A7 /* METDDPClient+AccountsPassword.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C36BAB261CC4E1F900B9A9A7 /* METDDPConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = C36BAAFB1CC4E1F800B9A9A7 /* METDDPConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C36BAB271CC4E1F900B9A9A7 /* METDDPHeartbeat.h in Headers */ = {isa = PBXBuildFile; fileRef = C36BAAFC1CC4E1F800B9A9A7 /* METDDPHeartbeat.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C36BAB281CC4E1F900B9A9A7 /* METDDPMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = C36BAAFD1CC4E1F800B9A9A7 /* METDDPMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C36BAB291CC4E1F900B9A9A7 /* METDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = C36BAAFE1CC4E1F800B9A9A7 /* METDocument.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C36BAB2A1CC4E1F900B9A9A7 /* METDocumentCache.h in Headers */ = {isa = PBXBuildFile; fileRef = C36BAAFF1CC4E1F800B9A9A7 /* METDocumentCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C36BAB2B1CC4E1F900B9A9A7 /* METDocumentChangeDetails.h in Headers */ = {isa = PBXBuildFile; fileRef = C36BAB001CC4E1F800B9A9A7 /* METDocumentChangeDetails.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C36BAB2C1CC4E1F900B9A9A7 /* METDocumentKey.h in Headers */ = {isa = PBXBuildFile; fileRef = C36BAB011CC4E1F800B9A9A7 /* METDocumentKey.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C36BAB2D1CC4E1F900B9A9A7 /* METDynamicVariable.h in Headers */ = {isa = PBXBuildFile; fileRef = C36BAB021CC4E1F800B9A9A7 /* METDynamicVariable.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C36BAB2E1CC4E1F900B9A9A7 /* METEJSONSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = C36BAB031CC4E1F800B9A9A7 /* METEJSONSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C36BAB2F1CC4E1F900B9A9A7 /* Meteor.h in Headers */ = {isa = PBXBuildFile; fileRef = C36BAB041CC4E1F800B9A9A7 /* Meteor.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C36BAB301CC4E1F900B9A9A7 /* METFetchRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = C36BAB051CC4E1F800B9A9A7 /* METFetchRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C36BAB311CC4E1F900B9A9A7 /* METIncrementalStore_Testing.h in Headers */ = {isa = PBXBuildFile; fileRef = C36BAB061CC4E1F800B9A9A7 /* METIncrementalStore_Testing.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C36BAB321CC4E1F900B9A9A7 /* METIncrementalStore.h in Headers */ = {isa = PBXBuildFile; fileRef = C36BAB071CC4E1F800B9A9A7 /* METIncrementalStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C36BAB331CC4E1F900B9A9A7 /* METMethodInvocation_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = C36BAB081CC4E1F800B9A9A7 /* METMethodInvocation_Internal.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C36BAB341CC4E1F900B9A9A7 /* METMethodInvocation.h in Headers */ = {isa = PBXBuildFile; fileRef = C36BAB091CC4E1F800B9A9A7 /* METMethodInvocation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C36BAB351CC4E1F900B9A9A7 /* METMethodInvocationContext.h in Headers */ = {isa = PBXBuildFile; fileRef = C36BAB0A1CC4E1F800B9A9A7 /* METMethodInvocationContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C36BAB361CC4E1F900B9A9A7 /* METMethodInvocationCoordinator_Testing.h in Headers */ = {isa = PBXBuildFile; fileRef = C36BAB0B1CC4E1F800B9A9A7 /* METMethodInvocationCoordinator_Testing.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C36BAB371CC4E1F900B9A9A7 /* METMethodInvocationCoordinator.h in Headers */ = {isa = PBXBuildFile; fileRef = C36BAB0C1CC4E1F800B9A9A7 /* METMethodInvocationCoordinator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C36BAB381CC4E1F900B9A9A7 /* METNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C36BAB0D1CC4E1F800B9A9A7 /* METNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C36BAB391CC4E1F900B9A9A7 /* METRandomStream.h in Headers */ = {isa = PBXBuildFile; fileRef = C36BAB0E1CC4E1F800B9A9A7 /* METRandomStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C36BAB3A1CC4E1F900B9A9A7 /* METRandomValueGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = C36BAB0F1CC4E1F800B9A9A7 /* METRandomValueGenerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C36BAB3B1CC4E1F900B9A9A7 /* METRetryStrategy.h in Headers */ = {isa = PBXBuildFile; fileRef = C36BAB101CC4E1F800B9A9A7 /* METRetryStrategy.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C36BAB3C1CC4E1F900B9A9A7 /* METSubscription_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = C36BAB111CC4E1F800B9A9A7 /* METSubscription_Internal.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C36BAB3D1CC4E1F900B9A9A7 /* METSubscription.h in Headers */ = {isa = PBXBuildFile; fileRef = C36BAB121CC4E1F800B9A9A7 /* METSubscription.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C36BAB3E1CC4E1F900B9A9A7 /* METSubscriptionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C36BAB131CC4E1F800B9A9A7 /* METSubscriptionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C36BAB3F1CC4E1F900B9A9A7 /* METTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = C36BAB141CC4E1F800B9A9A7 /* METTimer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C36BAB401CC4E1F900B9A9A7 /* NSArray+METAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = C36BAB151CC4E1F800B9A9A7 /* NSArray+METAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C36BAB411CC4E1F900B9A9A7 /* NSDictionary+METAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = C36BAB161CC4E1F800B9A9A7 /* NSDictionary+METAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C36BAB421CC4E1F900B9A9A7 /* NSString+METAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = C36BAB171CC4E1F800B9A9A7 /* NSString+METAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C3DF16AB1CC4CA7900D3F1FA /* Meteor+Promissum.h in Headers */ = {isa = PBXBuildFile; fileRef = C3DF16AA1CC4CA7900D3F1FA /* Meteor+Promissum.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C3DF16B21CC4CA7900D3F1FA /* MeteorPromissum.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3DF16A71CC4CA7900D3F1FA /* MeteorPromissum.framework */; };
 		C3DF16B71CC4CA7900D3F1FA /* Meteor_PromissumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DF16B61CC4CA7900D3F1FA /* Meteor_PromissumTests.swift */; };
@@ -71,49 +28,6 @@
 /* Begin PBXFileReference section */
 		45C31D4F8CA04E25A98251C6 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		96D8B432076FB2612DE52B20 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		C36BAAED1CC4E1F800B9A9A7 /* METAccount.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = METAccount.h; path = Pods/Headers/Private/Meteor/METAccount.h; sourceTree = "<group>"; };
-		C36BAAEE1CC4E1F800B9A9A7 /* METAleaRandomValueGenerator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = METAleaRandomValueGenerator.h; path = Pods/Headers/Private/Meteor/METAleaRandomValueGenerator.h; sourceTree = "<group>"; };
-		C36BAAEF1CC4E1F800B9A9A7 /* METBufferedDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = METBufferedDocument.h; path = Pods/Headers/Private/Meteor/METBufferedDocument.h; sourceTree = "<group>"; };
-		C36BAAF01CC4E1F800B9A9A7 /* METCollection_Internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = METCollection_Internal.h; path = Pods/Headers/Private/Meteor/METCollection_Internal.h; sourceTree = "<group>"; };
-		C36BAAF11CC4E1F800B9A9A7 /* METCollection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = METCollection.h; path = Pods/Headers/Private/Meteor/METCollection.h; sourceTree = "<group>"; };
-		C36BAAF21CC4E1F800B9A9A7 /* METCoreDataDDPClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = METCoreDataDDPClient.h; path = Pods/Headers/Private/Meteor/METCoreDataDDPClient.h; sourceTree = "<group>"; };
-		C36BAAF31CC4E1F800B9A9A7 /* METDatabase_Internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = METDatabase_Internal.h; path = Pods/Headers/Private/Meteor/METDatabase_Internal.h; sourceTree = "<group>"; };
-		C36BAAF41CC4E1F800B9A9A7 /* METDatabase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = METDatabase.h; path = Pods/Headers/Private/Meteor/METDatabase.h; sourceTree = "<group>"; };
-		C36BAAF51CC4E1F800B9A9A7 /* METDatabaseChanges_Internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = METDatabaseChanges_Internal.h; path = Pods/Headers/Private/Meteor/METDatabaseChanges_Internal.h; sourceTree = "<group>"; };
-		C36BAAF61CC4E1F800B9A9A7 /* METDatabaseChanges.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = METDatabaseChanges.h; path = Pods/Headers/Private/Meteor/METDatabaseChanges.h; sourceTree = "<group>"; };
-		C36BAAF71CC4E1F800B9A9A7 /* METDataUpdate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = METDataUpdate.h; path = Pods/Headers/Private/Meteor/METDataUpdate.h; sourceTree = "<group>"; };
-		C36BAAF81CC4E1F800B9A9A7 /* METDDPClient_Internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = METDDPClient_Internal.h; path = Pods/Headers/Private/Meteor/METDDPClient_Internal.h; sourceTree = "<group>"; };
-		C36BAAF91CC4E1F800B9A9A7 /* METDDPClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = METDDPClient.h; path = Pods/Headers/Private/Meteor/METDDPClient.h; sourceTree = "<group>"; };
-		C36BAAFA1CC4E1F800B9A9A7 /* METDDPClient+AccountsPassword.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "METDDPClient+AccountsPassword.h"; path = "Pods/Headers/Private/Meteor/METDDPClient+AccountsPassword.h"; sourceTree = "<group>"; };
-		C36BAAFB1CC4E1F800B9A9A7 /* METDDPConnection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = METDDPConnection.h; path = Pods/Headers/Private/Meteor/METDDPConnection.h; sourceTree = "<group>"; };
-		C36BAAFC1CC4E1F800B9A9A7 /* METDDPHeartbeat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = METDDPHeartbeat.h; path = Pods/Headers/Private/Meteor/METDDPHeartbeat.h; sourceTree = "<group>"; };
-		C36BAAFD1CC4E1F800B9A9A7 /* METDDPMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = METDDPMessage.h; path = Pods/Headers/Private/Meteor/METDDPMessage.h; sourceTree = "<group>"; };
-		C36BAAFE1CC4E1F800B9A9A7 /* METDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = METDocument.h; path = Pods/Headers/Private/Meteor/METDocument.h; sourceTree = "<group>"; };
-		C36BAAFF1CC4E1F800B9A9A7 /* METDocumentCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = METDocumentCache.h; path = Pods/Headers/Private/Meteor/METDocumentCache.h; sourceTree = "<group>"; };
-		C36BAB001CC4E1F800B9A9A7 /* METDocumentChangeDetails.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = METDocumentChangeDetails.h; path = Pods/Headers/Private/Meteor/METDocumentChangeDetails.h; sourceTree = "<group>"; };
-		C36BAB011CC4E1F800B9A9A7 /* METDocumentKey.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = METDocumentKey.h; path = Pods/Headers/Private/Meteor/METDocumentKey.h; sourceTree = "<group>"; };
-		C36BAB021CC4E1F800B9A9A7 /* METDynamicVariable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = METDynamicVariable.h; path = Pods/Headers/Private/Meteor/METDynamicVariable.h; sourceTree = "<group>"; };
-		C36BAB031CC4E1F800B9A9A7 /* METEJSONSerialization.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = METEJSONSerialization.h; path = Pods/Headers/Private/Meteor/METEJSONSerialization.h; sourceTree = "<group>"; };
-		C36BAB041CC4E1F800B9A9A7 /* Meteor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Meteor.h; path = Pods/Headers/Private/Meteor/Meteor.h; sourceTree = "<group>"; };
-		C36BAB051CC4E1F800B9A9A7 /* METFetchRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = METFetchRequest.h; path = Pods/Headers/Private/Meteor/METFetchRequest.h; sourceTree = "<group>"; };
-		C36BAB061CC4E1F800B9A9A7 /* METIncrementalStore_Testing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = METIncrementalStore_Testing.h; path = Pods/Headers/Private/Meteor/METIncrementalStore_Testing.h; sourceTree = "<group>"; };
-		C36BAB071CC4E1F800B9A9A7 /* METIncrementalStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = METIncrementalStore.h; path = Pods/Headers/Private/Meteor/METIncrementalStore.h; sourceTree = "<group>"; };
-		C36BAB081CC4E1F800B9A9A7 /* METMethodInvocation_Internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = METMethodInvocation_Internal.h; path = Pods/Headers/Private/Meteor/METMethodInvocation_Internal.h; sourceTree = "<group>"; };
-		C36BAB091CC4E1F800B9A9A7 /* METMethodInvocation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = METMethodInvocation.h; path = Pods/Headers/Private/Meteor/METMethodInvocation.h; sourceTree = "<group>"; };
-		C36BAB0A1CC4E1F800B9A9A7 /* METMethodInvocationContext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = METMethodInvocationContext.h; path = Pods/Headers/Private/Meteor/METMethodInvocationContext.h; sourceTree = "<group>"; };
-		C36BAB0B1CC4E1F800B9A9A7 /* METMethodInvocationCoordinator_Testing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = METMethodInvocationCoordinator_Testing.h; path = Pods/Headers/Private/Meteor/METMethodInvocationCoordinator_Testing.h; sourceTree = "<group>"; };
-		C36BAB0C1CC4E1F800B9A9A7 /* METMethodInvocationCoordinator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = METMethodInvocationCoordinator.h; path = Pods/Headers/Private/Meteor/METMethodInvocationCoordinator.h; sourceTree = "<group>"; };
-		C36BAB0D1CC4E1F800B9A9A7 /* METNetworkReachabilityManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = METNetworkReachabilityManager.h; path = Pods/Headers/Private/Meteor/METNetworkReachabilityManager.h; sourceTree = "<group>"; };
-		C36BAB0E1CC4E1F800B9A9A7 /* METRandomStream.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = METRandomStream.h; path = Pods/Headers/Private/Meteor/METRandomStream.h; sourceTree = "<group>"; };
-		C36BAB0F1CC4E1F800B9A9A7 /* METRandomValueGenerator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = METRandomValueGenerator.h; path = Pods/Headers/Private/Meteor/METRandomValueGenerator.h; sourceTree = "<group>"; };
-		C36BAB101CC4E1F800B9A9A7 /* METRetryStrategy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = METRetryStrategy.h; path = Pods/Headers/Private/Meteor/METRetryStrategy.h; sourceTree = "<group>"; };
-		C36BAB111CC4E1F800B9A9A7 /* METSubscription_Internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = METSubscription_Internal.h; path = Pods/Headers/Private/Meteor/METSubscription_Internal.h; sourceTree = "<group>"; };
-		C36BAB121CC4E1F800B9A9A7 /* METSubscription.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = METSubscription.h; path = Pods/Headers/Private/Meteor/METSubscription.h; sourceTree = "<group>"; };
-		C36BAB131CC4E1F800B9A9A7 /* METSubscriptionManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = METSubscriptionManager.h; path = Pods/Headers/Private/Meteor/METSubscriptionManager.h; sourceTree = "<group>"; };
-		C36BAB141CC4E1F800B9A9A7 /* METTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = METTimer.h; path = Pods/Headers/Private/Meteor/METTimer.h; sourceTree = "<group>"; };
-		C36BAB151CC4E1F800B9A9A7 /* NSArray+METAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "NSArray+METAdditions.h"; path = "Pods/Headers/Private/Meteor/NSArray+METAdditions.h"; sourceTree = "<group>"; };
-		C36BAB161CC4E1F800B9A9A7 /* NSDictionary+METAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+METAdditions.h"; path = "Pods/Headers/Private/Meteor/NSDictionary+METAdditions.h"; sourceTree = "<group>"; };
-		C36BAB171CC4E1F800B9A9A7 /* NSString+METAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "NSString+METAdditions.h"; path = "Pods/Headers/Private/Meteor/NSString+METAdditions.h"; sourceTree = "<group>"; };
 		C3DF16A71CC4CA7900D3F1FA /* MeteorPromissum.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MeteorPromissum.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3DF16AA1CC4CA7900D3F1FA /* Meteor+Promissum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Meteor+Promissum.h"; sourceTree = "<group>"; };
 		C3DF16AC1CC4CA7900D3F1FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -157,49 +71,6 @@
 		C3DF169D1CC4CA7900D3F1FA = {
 			isa = PBXGroup;
 			children = (
-				C36BAAED1CC4E1F800B9A9A7 /* METAccount.h */,
-				C36BAAEE1CC4E1F800B9A9A7 /* METAleaRandomValueGenerator.h */,
-				C36BAAEF1CC4E1F800B9A9A7 /* METBufferedDocument.h */,
-				C36BAAF01CC4E1F800B9A9A7 /* METCollection_Internal.h */,
-				C36BAAF11CC4E1F800B9A9A7 /* METCollection.h */,
-				C36BAAF21CC4E1F800B9A9A7 /* METCoreDataDDPClient.h */,
-				C36BAAF31CC4E1F800B9A9A7 /* METDatabase_Internal.h */,
-				C36BAAF41CC4E1F800B9A9A7 /* METDatabase.h */,
-				C36BAAF51CC4E1F800B9A9A7 /* METDatabaseChanges_Internal.h */,
-				C36BAAF61CC4E1F800B9A9A7 /* METDatabaseChanges.h */,
-				C36BAAF71CC4E1F800B9A9A7 /* METDataUpdate.h */,
-				C36BAAF81CC4E1F800B9A9A7 /* METDDPClient_Internal.h */,
-				C36BAAF91CC4E1F800B9A9A7 /* METDDPClient.h */,
-				C36BAAFA1CC4E1F800B9A9A7 /* METDDPClient+AccountsPassword.h */,
-				C36BAAFB1CC4E1F800B9A9A7 /* METDDPConnection.h */,
-				C36BAAFC1CC4E1F800B9A9A7 /* METDDPHeartbeat.h */,
-				C36BAAFD1CC4E1F800B9A9A7 /* METDDPMessage.h */,
-				C36BAAFE1CC4E1F800B9A9A7 /* METDocument.h */,
-				C36BAAFF1CC4E1F800B9A9A7 /* METDocumentCache.h */,
-				C36BAB001CC4E1F800B9A9A7 /* METDocumentChangeDetails.h */,
-				C36BAB011CC4E1F800B9A9A7 /* METDocumentKey.h */,
-				C36BAB021CC4E1F800B9A9A7 /* METDynamicVariable.h */,
-				C36BAB031CC4E1F800B9A9A7 /* METEJSONSerialization.h */,
-				C36BAB041CC4E1F800B9A9A7 /* Meteor.h */,
-				C36BAB051CC4E1F800B9A9A7 /* METFetchRequest.h */,
-				C36BAB061CC4E1F800B9A9A7 /* METIncrementalStore_Testing.h */,
-				C36BAB071CC4E1F800B9A9A7 /* METIncrementalStore.h */,
-				C36BAB081CC4E1F800B9A9A7 /* METMethodInvocation_Internal.h */,
-				C36BAB091CC4E1F800B9A9A7 /* METMethodInvocation.h */,
-				C36BAB0A1CC4E1F800B9A9A7 /* METMethodInvocationContext.h */,
-				C36BAB0B1CC4E1F800B9A9A7 /* METMethodInvocationCoordinator_Testing.h */,
-				C36BAB0C1CC4E1F800B9A9A7 /* METMethodInvocationCoordinator.h */,
-				C36BAB0D1CC4E1F800B9A9A7 /* METNetworkReachabilityManager.h */,
-				C36BAB0E1CC4E1F800B9A9A7 /* METRandomStream.h */,
-				C36BAB0F1CC4E1F800B9A9A7 /* METRandomValueGenerator.h */,
-				C36BAB101CC4E1F800B9A9A7 /* METRetryStrategy.h */,
-				C36BAB111CC4E1F800B9A9A7 /* METSubscription_Internal.h */,
-				C36BAB121CC4E1F800B9A9A7 /* METSubscription.h */,
-				C36BAB131CC4E1F800B9A9A7 /* METSubscriptionManager.h */,
-				C36BAB141CC4E1F800B9A9A7 /* METTimer.h */,
-				C36BAB151CC4E1F800B9A9A7 /* NSArray+METAdditions.h */,
-				C36BAB161CC4E1F800B9A9A7 /* NSDictionary+METAdditions.h */,
-				C36BAB171CC4E1F800B9A9A7 /* NSString+METAdditions.h */,
 				C3DF16A91CC4CA7900D3F1FA /* Meteor+Promissum */,
 				C3DF16B51CC4CA7900D3F1FA /* Meteor+PromissumTests */,
 				C3DF16A81CC4CA7900D3F1FA /* Products */,
@@ -252,49 +123,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C3DF16AB1CC4CA7900D3F1FA /* Meteor+Promissum.h in Headers */,
-				C36BAB181CC4E1F800B9A9A7 /* METAccount.h in Headers */,
-				C36BAB191CC4E1F800B9A9A7 /* METAleaRandomValueGenerator.h in Headers */,
-				C36BAB1A1CC4E1F800B9A9A7 /* METBufferedDocument.h in Headers */,
-				C36BAB1B1CC4E1F800B9A9A7 /* METCollection_Internal.h in Headers */,
-				C36BAB1C1CC4E1F800B9A9A7 /* METCollection.h in Headers */,
-				C36BAB1D1CC4E1F800B9A9A7 /* METCoreDataDDPClient.h in Headers */,
-				C36BAB1E1CC4E1F800B9A9A7 /* METDatabase_Internal.h in Headers */,
-				C36BAB1F1CC4E1F800B9A9A7 /* METDatabase.h in Headers */,
-				C36BAB201CC4E1F800B9A9A7 /* METDatabaseChanges_Internal.h in Headers */,
-				C36BAB211CC4E1F800B9A9A7 /* METDatabaseChanges.h in Headers */,
-				C36BAB221CC4E1F900B9A9A7 /* METDataUpdate.h in Headers */,
-				C36BAB231CC4E1F900B9A9A7 /* METDDPClient_Internal.h in Headers */,
-				C36BAB241CC4E1F900B9A9A7 /* METDDPClient.h in Headers */,
-				C36BAB251CC4E1F900B9A9A7 /* METDDPClient+AccountsPassword.h in Headers */,
-				C36BAB261CC4E1F900B9A9A7 /* METDDPConnection.h in Headers */,
-				C36BAB271CC4E1F900B9A9A7 /* METDDPHeartbeat.h in Headers */,
-				C36BAB281CC4E1F900B9A9A7 /* METDDPMessage.h in Headers */,
-				C36BAB291CC4E1F900B9A9A7 /* METDocument.h in Headers */,
-				C36BAB2A1CC4E1F900B9A9A7 /* METDocumentCache.h in Headers */,
-				C36BAB2B1CC4E1F900B9A9A7 /* METDocumentChangeDetails.h in Headers */,
-				C36BAB2C1CC4E1F900B9A9A7 /* METDocumentKey.h in Headers */,
-				C36BAB2D1CC4E1F900B9A9A7 /* METDynamicVariable.h in Headers */,
-				C36BAB2E1CC4E1F900B9A9A7 /* METEJSONSerialization.h in Headers */,
-				C36BAB2F1CC4E1F900B9A9A7 /* Meteor.h in Headers */,
-				C36BAB301CC4E1F900B9A9A7 /* METFetchRequest.h in Headers */,
-				C36BAB311CC4E1F900B9A9A7 /* METIncrementalStore_Testing.h in Headers */,
-				C36BAB321CC4E1F900B9A9A7 /* METIncrementalStore.h in Headers */,
-				C36BAB331CC4E1F900B9A9A7 /* METMethodInvocation_Internal.h in Headers */,
-				C36BAB341CC4E1F900B9A9A7 /* METMethodInvocation.h in Headers */,
-				C36BAB351CC4E1F900B9A9A7 /* METMethodInvocationContext.h in Headers */,
-				C36BAB361CC4E1F900B9A9A7 /* METMethodInvocationCoordinator_Testing.h in Headers */,
-				C36BAB371CC4E1F900B9A9A7 /* METMethodInvocationCoordinator.h in Headers */,
-				C36BAB381CC4E1F900B9A9A7 /* METNetworkReachabilityManager.h in Headers */,
-				C36BAB391CC4E1F900B9A9A7 /* METRandomStream.h in Headers */,
-				C36BAB3A1CC4E1F900B9A9A7 /* METRandomValueGenerator.h in Headers */,
-				C36BAB3B1CC4E1F900B9A9A7 /* METRetryStrategy.h in Headers */,
-				C36BAB3C1CC4E1F900B9A9A7 /* METSubscription_Internal.h in Headers */,
-				C36BAB3D1CC4E1F900B9A9A7 /* METSubscription.h in Headers */,
-				C36BAB3E1CC4E1F900B9A9A7 /* METSubscriptionManager.h in Headers */,
-				C36BAB3F1CC4E1F900B9A9A7 /* METTimer.h in Headers */,
-				C36BAB401CC4E1F900B9A9A7 /* NSArray+METAdditions.h in Headers */,
-				C36BAB411CC4E1F900B9A9A7 /* NSDictionary+METAdditions.h in Headers */,
-				C36BAB421CC4E1F900B9A9A7 /* NSString+METAdditions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
