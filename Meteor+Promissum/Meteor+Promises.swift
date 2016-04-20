@@ -67,9 +67,9 @@ public func ==(lhs: MeteorError, rhs: MeteorError) -> Bool {
   }
 }
 
-extension METDDPClient {
+public extension METDDPClient {
 
-  public static func methodCallToPromise<T>(expectedType: T.Type, _ methodName: String, _ promiseSource: PromiseSource<T, MeteorError>) -> METMethodCompletionHandler {
+  static func methodCallToPromise<T>(methodName: String, _ promiseSource: PromiseSource<T, MeteorError>) -> METMethodCompletionHandler {
     return { (result: AnyObject?, error: NSError?) in
 
       if let error = error {
@@ -80,7 +80,7 @@ extension METDDPClient {
       if let result = result as? T {
         promiseSource.resolve(result)
       } else {
-        if expectedType == Void.self {
+        if T.self == Void.self {
           promiseSource.resolve(Void() as! T)
         } else {
           // make errors look better
@@ -95,7 +95,7 @@ extension METDDPClient {
     }
   }
 
-  public static func methodCallToPromiseOptional<T>(expectedType: T.Type, _ methodName: String,  _ promiseSource: PromiseSource<Optional<T>, MeteorError>) -> METMethodCompletionHandler {
+  static func methodCallToPromiseOptional<T>(methodName: String,  _ promiseSource: PromiseSource<Optional<T>, MeteorError>) -> METMethodCompletionHandler {
     return { (result: AnyObject?, error: NSError?) in
 
       if let error = error {
@@ -116,25 +116,25 @@ extension METDDPClient {
     }
   }
 
-  func callMethodWithNamePromiseOptional<T>(expectedType: T.Type, methodName: String, parameters: [AnyObject]?) -> Promise<Optional<T>, MeteorError> {
+  public func callMethodWithNamePromiseOptional<T>(methodName: String, parameters: [AnyObject]?) -> Promise<Optional<T>, MeteorError> {
 
     let promiseSource = PromiseSource<Optional<T>, MeteorError>()
 
-    callMethodWithName(methodName, parameters: parameters, completionHandler: METDDPClient.methodCallToPromiseOptional(expectedType, methodName, promiseSource))
+    callMethodWithName(methodName, parameters: parameters, completionHandler: METDDPClient.methodCallToPromiseOptional(methodName, promiseSource))
 
     return promiseSource.promise
   }
 
-  func callMethodWithNamePromise<T>(expectedType: T.Type, methodName: String, parameters: [AnyObject]?) -> Promise<T, MeteorError> {
+  public func callMethodWithNamePromise<T>(methodName: String, parameters: [AnyObject]?) -> Promise<T, MeteorError> {
 
     let promiseSource = PromiseSource<T, MeteorError>()
 
-    callMethodWithName(methodName, parameters: parameters, completionHandler: METDDPClient.methodCallToPromise(expectedType, methodName, promiseSource))
+    callMethodWithName(methodName, parameters: parameters, completionHandler: METDDPClient.methodCallToPromise(methodName, promiseSource))
 
     return promiseSource.promise
   }
 
-  func addSubscriptionPromise(name: String, parameters: [AnyObject]?) -> Promise<METSubscription, MeteorError> {
+  public func addSubscriptionPromise(name: String, parameters: [AnyObject]?) -> Promise<METSubscription, MeteorError> {
     let promiseSource = PromiseSource<Void, ErrorType>()
 
     let subscription = addSubscriptionWithName(name, parameters: parameters) { error in
@@ -152,7 +152,7 @@ extension METDDPClient {
 }
 
 extension Promise {
-  func mapMeteorError() -> Promise<Value, MeteorError> {
+  public func mapMeteorError() -> Promise<Value, MeteorError> {
     return self.mapError { error in
       if let error = error as? NSError {
         return MeteorError(error)
