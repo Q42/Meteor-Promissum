@@ -55,6 +55,38 @@ Meteor.callMethodWithNamePromiseOptional("doSomething", parameters: nil)
 
 ```
 
+## Infer types
+
+Right now, all result types are inferred by the Swift compiler. So you need provide a type for `T` in one these three ways:
+
+- Save the promise result in a variable: 
+
+```swift
+let promise: Promise<String, MeteorError> = Meteor.callMethodWithNamePromise(...)
+```
+
+- Make the type inferrable by giving the result type when returning:
+
+```swift
+func doSomePromise() -> Promise<String, MeteorError> {
+	return Meteor.callMethodWithNamePromise(...)
+}
+```
+
+- Provide the type in `then`/`map`/`flatMap`
+
+```swift
+Meteor.callMethodWithNamePromise(...)
+	.then { (string: String) in
+	}
+	
+// Or:
+
+Meteor.callMethodWithNamePromise(...)
+	.map { (string: String) in
+	}
+```
+
 ## Subscriptions
 
 This structure also works for creating subscriptions:
@@ -73,7 +105,7 @@ Meteor.addSubscriptionPromise("someSubscription", parameters: ["Foo", "Bar"])
 
 ## Other features
 
-Of course promises provide a whole lot of other functions that could aggegrate you calls. For instance: wait for multiple calls:
+Of course the Promissum lib provides a whole lot of other functions that could aggegrate you calls. For instance: wait for multiple calls:
 
 ```swift
 
