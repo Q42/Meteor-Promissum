@@ -34,9 +34,9 @@ Meteor.callMethodWithNamePromise("doSomething", parameters: nil)
 
 In this example I call a Meteor method `doSomething`, and expect the result type to become `String`. Right now all Javascript primitives are supported: `Void`, `String`, `Bool` and `NSNumber` (for `Float`, `Int` and others). I plan on fixing supporting `Float`'s and `Int`'s directly instead of `NSNumber`.
 
-If you plan on more than one result type, allthough I would highly discurage, you always can use `AnyObject` and cast it yourself.
+If you plan on more than one result type, something I would highly discourage, you can always use `AnyObject` and cast it yourself.
 
-When the return type doesn't match the requested one, the method will throw an `MeteorError.UnexpectedResultType`. It'll also do some magic in handling some basic Meteor errors like `EndpointNotFound`
+When the return type doesn't match the requested one, the method will throw a `MeteorError.UnexpectedResultType`. It'll also do some magic in handling some basic Meteor errors like `EndpointNotFound`
 
 If you plan on returning null in Javascript, you can also use the Optional version of `callMethodWithNamePromiseOptional`. This'll wrap `T` in `Optional<T>`, so the result would become i.e. `String?` or `NSNumber?`.
 
@@ -73,7 +73,7 @@ Meteor.addSubscriptionPromise("someSubscription", parameters: ["Foo", "Bar"])
 
 ## Other features
 
-Of course promises provide a whole lot of other functions that could aggegrate you calls. For instance: wait for multiple calls:
+Of course promises provide a whole lot of other functions that could aggregate your calls. For instance, waiting for multiple calls:
 
 ```swift
 
@@ -102,7 +102,7 @@ let subscriptionAfterCheck = Meteor.callMethodWithNamePromise("doSomeChecking", 
 
 # Installation
 
-Figuring you already have Meteor iOS installed, this lib depends on `Promissum`. Since I only support Cocoapods for now, I highly recommend importing both via you `Podfile` like this:
+Given that you already have Meteor iOS installed, this lib depends on `Promissum`. Since I only support Cocoapods for now, I highly recommend importing both via your `Podfile` like this:
 
 
 ```ruby
@@ -114,4 +114,4 @@ pod 'MeteorPromises', :git => 'https://github.com/Q42/Meteor-Promissum.git', :ta
 
 I know, I should get my spec up at Cocoapods.
 
-It actually only is a category file that contains some extensions. You could also just import [Meteor+Promises.swift](https://github.com/Q42/Meteor-Promissum/blob/master/Meteor%2BPromissum/Meteor%2BPromises.swift) in you project.
+It's actually only a category file that contains some extensions. You could also just import [Meteor+Promises.swift](https://github.com/Q42/Meteor-Promissum/blob/master/Meteor%2BPromissum/Meteor%2BPromises.swift) in you project.
